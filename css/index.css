@@ -14,3 +14,20 @@
     height: 200px;
     width: 300px;
 }
+
+.ex-3-square{
+    transition-duration: 3s;
+}
+
+.ex-3-square:hover{
+    border-radius: 50px;
+}
+
+.ex-4-square{
+    animation: ex-4-square 3s infinite;
+}
+
+@keyframes ex-4-square{
+    from {background color: red;}
+    to {background-color: transparent;}
+}
