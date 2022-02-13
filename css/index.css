@@ -31,3 +31,21 @@
     from {background color: red;}
     to {background-color: transparent;}
 }
+
+.ex-5-square{
+    transition-duration: 3s;
+}
+
+.ex-5-square:hover{
+    width: 120px;
+    height: 120px;
+}
+
+.ex-5-square:active{
+    width: 30px;
+    height: 30px;
+}
+
+.ex-6-img:hover{
+    filter: grayscale(100%);
+}
